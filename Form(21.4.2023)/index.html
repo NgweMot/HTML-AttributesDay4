@@ -17,6 +17,7 @@
   </head>
   <body>
     <main>
+     <form action="" method="">
       <h3 class="subheading">Step :1 Your Details</h3>
       <div class="step1">
         <label class="step1Box" for="name">Name</label>
@@ -26,6 +27,7 @@
           id="name"
           name="name"
           placeholder="First and last name"
+          required
         />
       </div>
       <div class="step1">
@@ -46,12 +48,13 @@
           id="phone"
           name="phone"
           placeholder="Eg. +959971000000"
+          required
         />
       </div>
       <h3 class="subheading">Step :2 Delivery address</h3>
       <div class="step2">
-        <label class="step2Box tArea" for="">Address</label>
-        <textarea name="address" id="address" cols="32" rows="6"></textarea>
+        <label class="step2Box tArea" for="TextArea">Address</label>
+    <textarea class="TextArea" name="TextArea" id="TextArea" cols="30" rows="8"></textarea>
       </div>
       <div class="step2">
         <label class="step2Box" for="post-code">Post Code</label>
@@ -112,6 +115,7 @@
           type="number"
           id="cardNumber"
           name="cardNumber"
+          required
           
         />
       </div>
@@ -155,6 +159,7 @@
       <br>
       <br>
       <br>
+     </form>
     </main>
   </body>
 </html>

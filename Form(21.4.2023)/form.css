@@ -37,6 +37,7 @@ main {
   height: 30px;
   border-radius: 5px;
   border-color: white;
+
 }
 .step1Input,
 ::placeholder {
@@ -54,8 +55,14 @@ main {
 
   text-combine-upright: top;
 } */
-textarea{
-    border-radius: 5px;
+.TextArea{
+    height: 90px;
+    text-align: justify;
+    display: inline-block;
+  width: 250px;
+  height: 90px;
+  border-radius: 5px;
+  border-color: white;
   
 }
 .selectionBox{
