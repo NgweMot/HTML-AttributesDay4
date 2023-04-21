@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./form.css" />
+    <title>Form Design</title>
+  </head>
+  <body>
+    <main>
+      <h3 class="subheading">Step :1 Your Details</h3>
+      <div class="step1">
+        <label class="step1Box" for="name">Name</label>
+        <input
+          class="step1Input"
+          type="text"
+          id="name"
+          name="name"
+          placeholder="First and last name"
+        />
+      </div>
+      <div class="step1">
+        <label class="step1Box" for="mail">Email</label>
+        <input
+          class="step1Input"
+          type="email"
+          id="mail"
+          name="mail"
+          placeholder="example@domain.com"
+        />
+      </div>
+      <div class="step1">
+        <label class="step1Box" for="phone">Phone</label>
+        <input
+          class="step1Input"
+          type="number"
+          id="phone"
+          name="phone"
+          placeholder="Eg. +959971000000"
+        />
+      </div>
+      <h3 class="subheading">Step :2 Delivery address</h3>
+      <div class="step2">
+        <label class="step2Box tArea" for="">Address</label>
+        <textarea name="address" id="address" cols="32" rows="6"></textarea>
+      </div>
+      <div class="step2">
+        <label class="step2Box" for="post-code">Post Code</label>
+        <input
+          class="step2Input"
+          type="number"
+          id="post-code"
+          name="post-code"
+        />
+      </div>
+      <div class="step2">
+        <label class="step2Box" for="country">Country</label>
+        <select class="selectionBox" name="country" id="country">
+          <option value="mr">Myanmar</option>
+          <option value="sg">Singapore</option>
+          <option value="vn">Vietnam</option>
+          <option value="plp">Philippines</option>
+          <option value="cbd">Cambodia</option>
+          <option value="ls">Laos</option>
+          <option value="th">Thailand</option>
+          <option value="bn">Brunei</option>
+        </select>
+      </div>
+      <h3 class="subheading">Step :3 Card Details</h3>
+      <div class="step3">
+        <label class="step3Box" for="">Card Type</label><br /><br>
+       <div class="card-box">
+        <input
+        type="radio"
+        class="card-type"
+        id="cardtype"
+        name="card-type"
+      /><i class="fa-regular fa-credit-card"></i><label class="cardType-label" for="">VISA</label>
+       </div>
+        <div class="card-box">
+            <input
+          type="radio"
+          class="card-type"
+          id="cardtype"
+          name="card-type"
+        /><i class="fa-solid fa-credit-card"></i><label class="cardType-label" for="">JCB</label>
+        </div>
+        <div class="card-box">
+            <input
+          type="radio"
+          class="card-type"
+          id="cardtype"
+          name="card-type"
+        /><i class="fa-sharp fa-regular fa-credit-card" style="color: #ebd80a;"></i><label class="cardType-label" for="">Mastercard</label>
+        </div>
+      </div>
+      
+      </div>
+      <div class="step3">
+        <label class="step3Box" for="cardNumber">Card Number</label>
+        <input
+          class="step1Input"
+          type="number"
+          id="cardNumber"
+          name="cardNumber"
+          
+        />
+      </div>
+      <div class="step3">
+        <label class="step3Box" for="securityCode">Security Code</label>
+        <input
+          class="step3Input"
+          type="number"
+          id="securityCode"
+          name="securityCode"
+          
+        />
+      </div>
+      <div class="step3">
+        <label class="step3Box" for="securityCode">Name on card</label>
+        <input
+          class="step3Input"
+          type="text"
+          id="securityCode"
+          name="securityCode"
+          placeholder="Exact name as on the card"
+          
+        />
+      </div>
+      <div class="step3">
+        <input type="checkbox" required>
+        <label class="step3Box" for="submitbtn">I'm sure</label>
+        <input
+          class="submitbtn"
+          type="submit"
+          id="submitbtn"
+          name="submitbtn"
+          value="Submit"
+          
+          checked
+        
+          
+        />
+      </div>
+      
+      <br>
+      <br>
+      <br>
+    </main>
+  </body>
+</html>

@@ -1,0 +1,83 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+main {
+  margin: 20px;
+  background-color: rgb(41, 135, 243);
+  border: 1px white solid;
+  border-radius: 10px;
+ 
+}
+.subheading {
+  margin: 5px;
+  padding: 20px;
+}
+.step1,
+.step2,
+.step3 {
+  margin: 5px 20px;
+  padding: 20px;
+  border: 1px solid white;
+  border-radius: 10px;
+}
+.step1Box,
+.step2Box,
+.step3Box {
+  display: inline-block;
+
+  width: 150px;
+}
+.step1Input,
+.step2Input,
+.step3Input {
+  display: inline-block;
+  width: 250px;
+  height: 30px;
+  border-radius: 5px;
+  border-color: white;
+}
+.step1Input,
+::placeholder {
+  font-style: italic;
+
+}
+/* Subheading-2 Stylist Part2------------------ */
+.tArea{
+    display: inline-block;
+    text-align: left;
+    
+}
+/* .step2Box, 
+.tArea{
+
+  text-combine-upright: top;
+} */
+textarea{
+    border-radius: 5px;
+  
+}
+.selectionBox{
+    display: inline-block;
+    width: 250px;
+    height: 30px;
+    border-radius: 5px;
+    border-color: white;
+}
+/* Subheading-3 Stylist Part3------------------ */
+.card-box{
+    display: inline-block;
+    width: 150px;
+}
+.card-type:checked{
+accent-color: red;
+}
+.submitbtn{
+  display: inline-block;
+  width: 80px;
+  height: 30px;
+  border-radius: 5px;
+  border-color: white;
+  
+}
